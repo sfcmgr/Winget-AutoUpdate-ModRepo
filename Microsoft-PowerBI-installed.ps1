@@ -11,7 +11,7 @@ Possible use cases:
 . $PSScriptRoot\_Mods-Functions.ps1
 
 # Beginning of Desktop Link Name to Remove - optional wildcard (*) after, without .lnk, multiple: "lnk1*","lnk2"
-$Lnk = @("Power BI")
+$Lnk = @("Power BI Desktop")
 
 <# MAIN #>
 if ($RunSystem) {
