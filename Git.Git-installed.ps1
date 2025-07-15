@@ -10,13 +10,9 @@ Possible use cases:
 <# FUNCTIONS #>
 . $PSScriptRoot\_Mods-Functions.ps1
 
-# Beginning of Desktop Link Name to Remove - optional wildcard (*) after, without .lnk, multiple: "lnk1*","lnk2"
-$Lnk = @("Git")
-
 # Remove file/directory, multiple: "file1","file2" Example:
 # $DelFile = @("${env:ProgramFiles}\PowerToys\PowerToys.Update.exe")
 $DelFile = @("${env:ProgramData}\Microsoft\Windows\Start Menu\Programs\Git")
-
 
 <# MAIN #>
 if ($RunSystem) {
